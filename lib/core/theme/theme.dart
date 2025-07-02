@@ -9,9 +9,9 @@ class ThemesManager {
     useMaterial3: true,
     appBarTheme: AppBarTheme(
       backgroundColor: ColorsManager.primaryColor,
-      titleTextStyle: TextStylesManager.bold20.copyWith(
-        color: ColorsManager.whiteColor,
-      ),
+      // titleTextStyle: TextStylesManager.bold20.copyWith(
+      //   color: ColorsManager.whiteColor,
+      // ),
       iconTheme: IconThemeData(
         color: ColorsManager.whiteColor,
       ),
@@ -23,10 +23,10 @@ class ThemesManager {
     scaffoldBackgroundColor: ColorsManager.scaffoldDarkBackgroundColor,
     useMaterial3: true,
     appBarTheme: AppBarTheme(
-      backgroundColor: ColorsManager.primaryColor,
-      titleTextStyle: TextStylesManager.bold20.copyWith(
-        color: ColorsManager.whiteColor,
-      ),
+      backgroundColor: ColorsManager.primaryDarkColor,
+      // titleTextStyle: TextStylesManager.bold20.copyWith(
+      //   color: ColorsManager.whiteColor,
+      // ),
       iconTheme: IconThemeData(
         color: ColorsManager.whiteColor,
       ),

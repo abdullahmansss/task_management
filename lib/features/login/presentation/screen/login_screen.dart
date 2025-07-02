@@ -16,12 +16,12 @@ class _LoginScreenState extends State<LoginScreen> {
     super.initState();
   }
 
-  Map<String, int> dataFromHomeScreen = {};
+  // Map<String, int> dataFromHomeScreen = {};
 
   @override
   Widget build(BuildContext context) {
-    // Retrieve the data passed from the Home Screen
-    dataFromHomeScreen = context.getArg<Map<String, int>>() ?? {};
+    // // Retrieve the data passed from the Home Screen
+    // dataFromHomeScreen = context.getArg<Map<String, int>>() ?? {};
 
     return Scaffold(
       appBar: AppBar(
@@ -33,11 +33,11 @@ class _LoginScreenState extends State<LoginScreen> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(
-              dataFromHomeScreen['dataFromHomeScreen'].toString(),
+              'Welcome to the Login Screen!',
               style: TextStylesManager.black20,
             ),
             Text(
-              dataFromHomeScreen['anotherData'].toString(),
+              '',
               style: TextStylesManager.black20,
             ),
             verticalSpace20,
